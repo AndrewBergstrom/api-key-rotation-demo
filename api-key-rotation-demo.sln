@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7A4FCE49-7A9D-42EF-9C91-61C0B867B6CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiKeyRotation", "src\ApiKeyRotation\ApiKeyRotation.csproj", "{D283649F-2735-4B76-8844-B571E2DBE83D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4CA84D40-8856-4917-BB46-F3438A619C6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiKeyRotation.Tests", "tests\ApiKeyRotation.Tests\ApiKeyRotation.Tests.csproj", "{FD7F638C-C75B-443B-89B3-057C9E80998A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D283649F-2735-4B76-8844-B571E2DBE83D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D283649F-2735-4B76-8844-B571E2DBE83D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D283649F-2735-4B76-8844-B571E2DBE83D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D283649F-2735-4B76-8844-B571E2DBE83D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD7F638C-C75B-443B-89B3-057C9E80998A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD7F638C-C75B-443B-89B3-057C9E80998A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD7F638C-C75B-443B-89B3-057C9E80998A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD7F638C-C75B-443B-89B3-057C9E80998A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D283649F-2735-4B76-8844-B571E2DBE83D} = {7A4FCE49-7A9D-42EF-9C91-61C0B867B6CC}
+		{FD7F638C-C75B-443B-89B3-057C9E80998A} = {4CA84D40-8856-4917-BB46-F3438A619C6C}
+	EndGlobalSection
+EndGlobal
