@@ -26,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/ApiKeyRotation/ApiKeyRotation.csproj" />
+    <ProjectReference Include="../../cleaned-repo-working/src/ApiKeyRotation/ApiKeyRotation.csproj" />
   </ItemGroup>
 
 </Project>
